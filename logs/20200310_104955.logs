@@ -1,0 +1,87 @@
+ 2020-03-10 10:49:56,026--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+ 2020-03-10 10:49:56,027--connectionpool.py --DEBUG--15868--206 --Starting new HTTP connection (1): 127.0.0.1:52922
+ 2020-03-10 10:50:02,264--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session HTTP/1.1" 200 684
+ 2020-03-10 10:50:02,264--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:02,265--testcase_login.py --INFO--15868--39 --开始登录成功测试
+ 2020-03-10 10:50:02,272--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/url {"url": "http://localhost:9000/ECShop_V2.7.2_UTF8_Release0604/upload66/user.php"}
+ 2020-03-10 10:50:03,504--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session/6f175a88b0e2e2555c7677ff61b6f88b/url HTTP/1.1" 200 14
+ 2020-03-10 10:50:03,504--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:03,504--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/element {"using": "css selector", "value": "[name=\"username\"]"}
+ 2020-03-10 10:50:03,543--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session/6f175a88b0e2e2555c7677ff61b6f88b/element HTTP/1.1" 200 88
+ 2020-03-10 10:50:03,544--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:03,544--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/element/1d4aa7e3-e578-4f76-9c84-b3b0affbf962/value {"text": "wangyu", "value": ["w", "a", "n", "g", "y", "u"], "id": "1d4aa7e3-e578-4f76-9c84-b3b0affbf962"}
+ 2020-03-10 10:50:03,691--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session/6f175a88b0e2e2555c7677ff61b6f88b/element/1d4aa7e3-e578-4f76-9c84-b3b0affbf962/value HTTP/1.1" 200 14
+ 2020-03-10 10:50:03,692--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:03,692--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/element {"using": "css selector", "value": "[name=\"password\"]"}
+ 2020-03-10 10:50:03,714--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session/6f175a88b0e2e2555c7677ff61b6f88b/element HTTP/1.1" 200 88
+ 2020-03-10 10:50:03,714--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:03,714--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/element/4339783b-2825-41c2-83fa-fa6db2b013a7/value {"text": "W7548zhang", "value": ["W", "7", "5", "4", "8", "z", "h", "a", "n", "g"], "id": "4339783b-2825-41c2-83fa-fa6db2b013a7"}
+ 2020-03-10 10:50:03,845--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session/6f175a88b0e2e2555c7677ff61b6f88b/element/4339783b-2825-41c2-83fa-fa6db2b013a7/value HTTP/1.1" 200 14
+ 2020-03-10 10:50:03,846--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:03,846--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/element {"using": "css selector", "value": "[name=\"submit\"]"}
+ 2020-03-10 10:50:03,857--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session/6f175a88b0e2e2555c7677ff61b6f88b/element HTTP/1.1" 200 88
+ 2020-03-10 10:50:03,858--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:03,858--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/element/55159b14-4fca-4c3e-b6bc-4847c9edded8/click {"id": "55159b14-4fca-4c3e-b6bc-4847c9edded8"}
+ 2020-03-10 10:50:04,140--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session/6f175a88b0e2e2555c7677ff61b6f88b/element/55159b14-4fca-4c3e-b6bc-4847c9edded8/click HTTP/1.1" 200 14
+ 2020-03-10 10:50:04,141--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:04,142--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/element {"using": "xpath", "value": "//font[contains(@class,'f4_b')]"}
+ 2020-03-10 10:50:04,173--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "POST /session/6f175a88b0e2e2555c7677ff61b6f88b/element HTTP/1.1" 200 88
+ 2020-03-10 10:50:04,174--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:04,174--remote_connection.py --DEBUG--15868--388 --GET http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b/element/0df4d65e-3d70-4e6c-a0c7-ffd88ff95fb4/text {"id": "0df4d65e-3d70-4e6c-a0c7-ffd88ff95fb4"}
+ 2020-03-10 10:50:04,194--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "GET /session/6f175a88b0e2e2555c7677ff61b6f88b/element/0df4d65e-3d70-4e6c-a0c7-ffd88ff95fb4/text HTTP/1.1" 200 18
+ 2020-03-10 10:50:04,194--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:04,194--remote_connection.py --DEBUG--15868--388 --DELETE http://127.0.0.1:52922/session/6f175a88b0e2e2555c7677ff61b6f88b {}
+ 2020-03-10 10:50:04,263--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52922 "DELETE /session/6f175a88b0e2e2555c7677ff61b6f88b HTTP/1.1" 200 14
+ 2020-03-10 10:50:04,263--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:07,030--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+ 2020-03-10 10:50:07,031--connectionpool.py --DEBUG--15868--206 --Starting new HTTP connection (1): 127.0.0.1:52961
+ 2020-03-10 10:50:12,163--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session HTTP/1.1" 200 683
+ 2020-03-10 10:50:12,163--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,163--testcase_login.py --INFO--15868--44 --开始登录失败测试测试
+ 2020-03-10 10:50:12,164--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d/url {"url": "http://localhost:9000/ECShop_V2.7.2_UTF8_Release0604/upload66/user.php"}
+ 2020-03-10 10:50:12,568--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session/1f462f28344e1dcaabd71ba8e2fdd88d/url HTTP/1.1" 200 14
+ 2020-03-10 10:50:12,569--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,569--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d/element {"using": "css selector", "value": "[name=\"username\"]"}
+ 2020-03-10 10:50:12,594--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session/1f462f28344e1dcaabd71ba8e2fdd88d/element HTTP/1.1" 200 88
+ 2020-03-10 10:50:12,594--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,594--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d/element/2cd9fdbf-daa7-4ba2-a3ba-3f02d10322a8/value {"text": "wangyu", "value": ["w", "a", "n", "g", "y", "u"], "id": "2cd9fdbf-daa7-4ba2-a3ba-3f02d10322a8"}
+ 2020-03-10 10:50:12,672--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session/1f462f28344e1dcaabd71ba8e2fdd88d/element/2cd9fdbf-daa7-4ba2-a3ba-3f02d10322a8/value HTTP/1.1" 200 14
+ 2020-03-10 10:50:12,672--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,672--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d/element {"using": "css selector", "value": "[name=\"password\"]"}
+ 2020-03-10 10:50:12,697--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session/1f462f28344e1dcaabd71ba8e2fdd88d/element HTTP/1.1" 200 88
+ 2020-03-10 10:50:12,698--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,698--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d/element/f8467bad-4057-45f3-b53c-64b48c136e9b/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "f8467bad-4057-45f3-b53c-64b48c136e9b"}
+ 2020-03-10 10:50:12,788--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session/1f462f28344e1dcaabd71ba8e2fdd88d/element/f8467bad-4057-45f3-b53c-64b48c136e9b/value HTTP/1.1" 200 14
+ 2020-03-10 10:50:12,790--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,791--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d/element {"using": "css selector", "value": "[name=\"submit\"]"}
+ 2020-03-10 10:50:12,810--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session/1f462f28344e1dcaabd71ba8e2fdd88d/element HTTP/1.1" 200 88
+ 2020-03-10 10:50:12,810--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,810--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d/element/d44f6ebc-e642-4a2d-82b3-99f39b341152/click {"id": "d44f6ebc-e642-4a2d-82b3-99f39b341152"}
+ 2020-03-10 10:50:12,973--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session/1f462f28344e1dcaabd71ba8e2fdd88d/element/d44f6ebc-e642-4a2d-82b3-99f39b341152/click HTTP/1.1" 200 14
+ 2020-03-10 10:50:12,974--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,975--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d/element {"using": "xpath", "value": "//font[contains(@class,'f4_b')]"}
+ 2020-03-10 10:50:12,997--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "POST /session/1f462f28344e1dcaabd71ba8e2fdd88d/element HTTP/1.1" 404 1059
+ 2020-03-10 10:50:12,999--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:12,999--remote_connection.py --DEBUG--15868--388 --DELETE http://127.0.0.1:52961/session/1f462f28344e1dcaabd71ba8e2fdd88d {}
+ 2020-03-10 10:50:13,095--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:52961 "DELETE /session/1f462f28344e1dcaabd71ba8e2fdd88d HTTP/1.1" 200 14
+ 2020-03-10 10:50:13,097--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:15,781--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:53001/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+ 2020-03-10 10:50:15,782--connectionpool.py --DEBUG--15868--206 --Starting new HTTP connection (1): 127.0.0.1:53001
+ 2020-03-10 10:50:20,586--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:53001 "POST /session HTTP/1.1" 200 684
+ 2020-03-10 10:50:20,587--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:20,587--testcase_login.py --INFO--15868--49 --用户名输入测试
+ 2020-03-10 10:50:20,587--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:53001/session/05fcc756a731bd9bc929c0cc972ed916/url {"url": "http://localhost:9000/ECShop_V2.7.2_UTF8_Release0604/upload66/user.php"}
+ 2020-03-10 10:50:20,934--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:53001 "POST /session/05fcc756a731bd9bc929c0cc972ed916/url HTTP/1.1" 200 14
+ 2020-03-10 10:50:20,935--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:20,936--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:53001/session/05fcc756a731bd9bc929c0cc972ed916/element {"using": "css selector", "value": "[name=\"username\"]"}
+ 2020-03-10 10:50:20,960--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:53001 "POST /session/05fcc756a731bd9bc929c0cc972ed916/element HTTP/1.1" 200 88
+ 2020-03-10 10:50:20,961--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:20,961--remote_connection.py --DEBUG--15868--388 --POST http://127.0.0.1:53001/session/05fcc756a731bd9bc929c0cc972ed916/element/df44ef04-e419-4b35-8032-ce39eac7e11a/value {"text": "12355657", "value": ["1", "2", "3", "5", "5", "6", "5", "7"], "id": "df44ef04-e419-4b35-8032-ce39eac7e11a"}
+ 2020-03-10 10:50:21,099--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:53001 "POST /session/05fcc756a731bd9bc929c0cc972ed916/element/df44ef04-e419-4b35-8032-ce39eac7e11a/value HTTP/1.1" 200 14
+ 2020-03-10 10:50:21,099--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:21,099--remote_connection.py --DEBUG--15868--388 --GET http://127.0.0.1:53001/session/05fcc756a731bd9bc929c0cc972ed916/screenshot {}
+ 2020-03-10 10:50:21,453--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:53001 "GET /session/05fcc756a731bd9bc929c0cc972ed916/screenshot HTTP/1.1" 200 67128
+ 2020-03-10 10:50:21,453--remote_connection.py --DEBUG--15868--440 --Finished Request
+ 2020-03-10 10:50:21,460--remote_connection.py --DEBUG--15868--388 --DELETE http://127.0.0.1:53001/session/05fcc756a731bd9bc929c0cc972ed916 {}
+ 2020-03-10 10:50:21,493--connectionpool.py --DEBUG--15868--396 --http://127.0.0.1:53001 "DELETE /session/05fcc756a731bd9bc929c0cc972ed916 HTTP/1.1" 200 14
+ 2020-03-10 10:50:21,494--remote_connection.py --DEBUG--15868--440 --Finished Request
